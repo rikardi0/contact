@@ -1,0 +1,119 @@
+    @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Indie+Flower&family=Patrick+Hand&family=Rock+Salt&family=Zeyada&display=swap');
+     :root {
+        --rosado: #d40245;
+        --rosadoOscuro: #61001f;
+        --azul: #0063b4;
+        --azulOscuro: #002341;
+        --amarillo: #ff6a06;
+        --amarilloOscuro: #853500;
+    }
+    
+    body {
+        font-family: 'Annie use your telescope';
+    }
+    
+    #presentation {
+        font-family: 'Annie use your telescope';
+        margin-top: 50px;
+        font-size: 35px;
+        background-color: rgba(255, 94, 0, 0.466);
+    }
+    
+    .note {
+        font-family: 'Zeyada';
+        text-align: center;
+        width: 85px;
+        height: fit-content;
+        border: 2px solid;
+        border-top: transparent;
+    }
+    
+    #contactInfo {
+        font-size: 30px;
+        border: solid;
+        border-radius: 10px;
+        width: 40vw;
+        position: relative;
+        top: 20px;
+        margin: auto;
+        display: flex;
+        color: rgba(0, 0, 0, 0.712);
+        justify-content: center;
+    }
+    
+    #contactInfo li {
+        list-style: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    #contactInfo a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    #git {
+        margin-left: -12px;
+        margin-right: -8px;
+    }
+    
+    #pd {
+        display: flex;
+        font-family: 'Zeyada';
+        font-size: 25px;
+        text-align: end;
+        margin-top: 10px;
+    }
+    
+    #pd p {
+        width: 25vw;
+    }
+    
+    #pd a {
+        color: black;
+    }
+    
+    #pd img {
+        margin-top: 30px;
+        position: relative;
+        z-index: -100;
+        margin-left: -25px;
+        transform: rotate(-20deg);
+    }
+    
+    #navBar {
+        width: 60%;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    
+    #navBar a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0);
+    }
+    
+    #navBar a:hover {
+        color: rgb(0, 0, 0);
+        font-size: 200%;
+        text-decoration-line: underline;
+    }
+    
+    #about {
+        background-color: var(--rosado);
+        border-color: var(--rosadoOscuro);
+    }
+    
+    #projects {
+        background-color: var(--azul);
+        border-color: var(--azulOscuro);
+    }
+    
+    #contact {
+        background-color: var(--amarillo);
+        border-color: var(--amarilloOscuro);
+    }
