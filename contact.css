@@ -19,15 +19,6 @@ body {
     background-color: rgba(255, 94, 0, 0.466);
 }
 
-.note {
-    font-family: 'Zeyada';
-    text-align: center;
-    width: 85px;
-    height: fit-content;
-    border: 2px solid;
-    border-top: transparent;
-}
-
 #contactInfo {
     font-size: 30px;
     border: solid;
@@ -80,46 +71,12 @@ body {
     transform: rotate(-20deg);
 }
 
-#navBar {
-    width: 60%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    margin-top: 0;
-    z-index: 100;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-#navBar a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0);
-}
-
-#navBar a:hover {
-    color: rgb(0, 0, 0);
-    font-size: 200%;
-    text-decoration-line: underline;
-}
-
-#about {
-    background-color: var(--rosado);
-    border-color: var(--rosadoOscuro);
-}
-
-#projects {
-    background-color: var(--azul);
-    border-color: var(--azulOscuro);
-}
-
-#contact {
-    background-color: var(--amarillo);
-    border-color: var(--amarilloOscuro);
-}
-
 @media (max-width:425px) {
     .note {
         margin-right: 10px;
+    }
+    #pd img {
+        height: 110px;
+        margin-left: 5px;
     }
 }
